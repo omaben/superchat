@@ -1,0 +1,22 @@
+.unRead{
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: red;
+    }
+}
+.dis-block{
+    display: inline!important;
+}
+.not-allow{
+    cursor: not-allowed!important;
+}
+
+
+
+
+
